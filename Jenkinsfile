@@ -4,7 +4,7 @@ pipeline {
     }
 environment {
     registryCredentials = 'DockerHub'
-    registry = 'bjgomes/tomcat'
+    registry = 'ohbster/tomcat'
 }
     stages {
         stage('git') {
